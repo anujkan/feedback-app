@@ -19,7 +19,9 @@ const FeedbackItem = ({ item }) => {
 			<button className="edit" onClick={() => editFeedback(item)}>
 				<FaEdit color="purple" />
 			</button>
+			<div className="name-display">{item.name}</div>
 			<div className="text-display">{item.text}</div>
+			<div className="email-display">{item.email}</div>
 		</Card>
 	);
 };

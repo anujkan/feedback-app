@@ -26,10 +26,10 @@ export const FeedbackProvider = ({ children }) => {
 		setFeedback(
 			feedback.map((item) => (item.id === id ? { ...item, ...updItem } : item))
 		);
-		console.log("ID --> ", id, "  |  Updated Item --> ", updItem);
 	};
 
 	const editFeedback = (item) => {
+		console.log("item --> ", item);
 		setFeedbackEdit({
 			item,
 			edit: true,

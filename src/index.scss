@@ -108,6 +108,37 @@ header {
   border-radius: 8px;
 }
 
+.input-group-2col {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.input-group-2col input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 10px;
+  min-height: 60px;
+  margin-right: 15px;
+}
+
+.input-group-2col input:last-child {
+  margin-right: 0px;
+}
+
+@media (max-width: 600px) {
+  .input-group-2col {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .input-group-2col input {
+    display: flex;
+    flex: 1;
+    margin: 0 0 15px 0;
+  }
+}
+
 input {
   flex-grow: 2;
   border: none;
@@ -227,4 +258,40 @@ input:focus {
   .input-group input {
     width: 80%;
   }
+}
+
+.name-display {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.email-display {
+  font-weight: 100;
+  font-size: 12px;
+  margin-top: 5px;
+  font-style: italic;
+  color: rgb(120, 120, 120);
+}
+
+.success-message {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 15px 10px;
+  background: #a4f7c5;
+  border: 1px solid #2b804d;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.success-message span {
+  flex: 1;
+}
+
+.success-message .close-message {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  min-height: 0;
+  cursor: pointer;
 }

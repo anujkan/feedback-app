@@ -10,6 +10,8 @@ const FeedbackList = () => {
 		return <p>No Feedback yet...!!!</p>;
 	}
 
+	console.log("feedback --> ", feedback);
+
 	return (
 		<div className="feedback-list">
 			<AnimatePresence>
