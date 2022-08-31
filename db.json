@@ -1,0 +1,39 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "name": "Gurpreet Singh",
+      "email": "gurpreet.singh@chainthat.com",
+      "rating": 5,
+      "text": "DB: Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": 2,
+      "name": "Kathir Kumar",
+      "email": "kathir.kumar@gmail.com",
+      "rating": 9,
+      "text": "DB: Dolor sit amet consectetur adipisicing elit Lorem ipsum."
+    },
+    {
+      "id": 3,
+      "name": "Kamith Kumar",
+      "email": "kamith.kumar@gmail.com",
+      "rating": 9,
+      "text": "DB: Adipisicing elit sit amet consectetur Lorem ipsum dolor."
+    },
+    {
+      "rating": 9,
+      "text": "New Feedback Item (postman)",
+      "name": "Anuj Kanojia",
+      "email": "anuj@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Hello Mars",
+      "email": "hello@outlook.com",
+      "text": "React is AWESOME",
+      "rating": 8,
+      "id": 5
+    }
+  ]
+}
